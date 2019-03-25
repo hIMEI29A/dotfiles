@@ -114,11 +114,21 @@ fi
 
 #[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 
+################
+#    Prompt    #
+###############
+
 export PS1="\[\e[0;36m\]\d \[\e[0;37m\]\t \[\e[0;31m\]\u\[\e[0;32m\][@]\[\e[0;31m\]\h \[\e[0;33m\]\w \[\e[0;32m\]=> \[\e[0m\]"
 
-export GOROOT=$HOME/go/go
-export GOPATH=$HOME/code
+#################
+#  Environment  #
+#   variables   #
+#################
+
+# Golang vars #
+
+export GOROOT="/home/himei/go"
+export GOPATH="/home/himei/code"
+export PATH=$PATH:/home/himei/code/bin
+export GOBIN="/home/himei/code/bin"
 export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:$GOROOT/bin
-export PATH=$PATH:/home/ubuntu/go/go/bin 
-#export PATH=$PATH:$(go env GOPATH)/bin
