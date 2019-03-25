@@ -132,3 +132,4 @@ export GOPATH="/home/himei/code"
 export PATH=$PATH:/home/himei/code/bin
 export GOBIN="/home/himei/code/bin"
 export PATH=$PATH:$GOROOT/bin
+
