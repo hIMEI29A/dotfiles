@@ -3,9 +3,9 @@
 # Script to install system configs
 # and Golang build'n'dev tools
 
-###########################
-# Variables and functions #
-###########################
+##############################
+#    Variables and functions #
+##############################
 
 # GOROOT
 GROOT=$HOME/go
